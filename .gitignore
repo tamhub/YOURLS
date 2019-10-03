@@ -3,8 +3,8 @@
 ############
 
 # Configuration
-*config.php
-user/*
+# *config.php
+# user/*
 !user/config-sample.php
 .htaccess
 *.config
