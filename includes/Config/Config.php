@@ -207,7 +207,8 @@ class Config {
 
         // Error reporting
         if (defined( 'YOURLS_DEBUG' ) && YOURLS_DEBUG == true ) {
-            error_reporting( -1 );
+            error_reporting( E_ERROR | E_PARSE );
+            // error_reporting( -1 );
         } else {
             error_reporting( E_ERROR | E_PARSE );
         }
