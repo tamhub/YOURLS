@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "02dbbf7d29007948ffe9fb35753f67b0",
     "content-hash": "6b7003735dfad29c7eac5a5a78373396",
     "packages": [
         {
@@ -61,29 +60,29 @@
                 "sqlserver",
                 "sqlsrv"
             ],
-            "time": "2018-08-15 13:33:56"
+            "time": "2018-08-15T13:33:56+00:00"
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.3",
+            "version": "1.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "8afa52cd417f4ec417b4bfe86b68106538a87660"
+                "reference": "10bb96592168a0f8e8f6dcde3532d9fa50b0b527"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/8afa52cd417f4ec417b4bfe86b68106538a87660",
-                "reference": "8afa52cd417f4ec417b4bfe86b68106538a87660",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/10bb96592168a0f8e8f6dcde3532d9fa50b0b527",
+                "reference": "10bb96592168a0f8e8f6dcde3532d9fa50b0b527",
                 "shasum": ""
             },
             "require": {
                 "ext-openssl": "*",
                 "ext-pcre": "*",
-                "php": "^5.3.2 || ^7.0"
+                "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8",
                 "psr/log": "^1.0",
                 "symfony/process": "^2.5 || ^3.0 || ^4.0"
             },
@@ -117,7 +116,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2018-10-18 06:09:13"
+            "time": "2019-08-30T08:44:50+00:00"
         },
         {
             "name": "geoip2/geoip2",
@@ -169,7 +168,7 @@
                 "geolocation",
                 "maxmind"
             ],
-            "time": "2018-04-10 15:32:59"
+            "time": "2018-04-10T15:32:59+00:00"
         },
         {
             "name": "jakeasmith/http_build_url",
@@ -202,29 +201,30 @@
                 }
             ],
             "description": "Provides functionality for http_build_url() to environments without pecl_http.",
-            "time": "2017-05-01 15:36:40"
+            "time": "2017-05-01T15:36:40+00:00"
         },
         {
             "name": "maxmind-db/reader",
-            "version": "v1.4.1",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git",
-                "reference": "eb83d0ee1c1f9b8a340206302136bc81ee02ae74"
+                "reference": "bd436094fc0a9b0558a899fb80b0ae34fe1808a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/eb83d0ee1c1f9b8a340206302136bc81ee02ae74",
-                "reference": "eb83d0ee1c1f9b8a340206302136bc81ee02ae74",
+                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/bd436094fc0a9b0558a899fb80b0ae34fe1808a0",
+                "reference": "bd436094fc0a9b0558a899fb80b0ae34fe1808a0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4"
+                "php": ">=5.6"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "2.*",
-                "phpunit/phpunit": "4.* || 5.*",
-                "satooshi/php-coveralls": "1.0.*",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpcov": "^3.0",
+                "phpunit/phpunit": "5.*",
                 "squizlabs/php_codesniffer": "3.*"
             },
             "suggest": {
@@ -246,7 +246,7 @@
                 {
                     "name": "Gregory J. Oschwald",
                     "email": "goschwald@maxmind.com",
-                    "homepage": "http://www.maxmind.com/"
+                    "homepage": "https://www.maxmind.com/"
                 }
             ],
             "description": "MaxMind DB Reader API",
@@ -258,7 +258,7 @@
                 "geolocation",
                 "maxmind"
             ],
-            "time": "2019-01-04 19:55:56"
+            "time": "2019-09-30T22:56:38+00:00"
         },
         {
             "name": "maxmind/web-service-common",
@@ -304,7 +304,7 @@
             ],
             "description": "Internal MaxMind Web Service API",
             "homepage": "https://github.com/maxmind/web-service-common-php",
-            "time": "2018-02-12 22:31:54"
+            "time": "2018-02-12T22:31:54+00:00"
         },
         {
             "name": "ozh/bookmarkletgen",
@@ -345,7 +345,7 @@
                 "bookmarklet",
                 "javascript"
             ],
-            "time": "2017-05-18 12:46:21"
+            "time": "2017-05-18T12:46:21+00:00"
         },
         {
             "name": "ozh/phpass",
@@ -389,7 +389,7 @@
                 "password",
                 "security"
             ],
-            "time": "2017-05-17 23:30:20"
+            "time": "2017-05-17T23:30:20+00:00"
         },
         {
             "name": "pomo/pomo",
@@ -443,7 +443,7 @@
                 "localization",
                 "translation"
             ],
-            "time": "2018-12-20 14:55:38"
+            "time": "2018-12-20T14:55:38+00:00"
         },
         {
             "name": "rmccue/requests",
@@ -492,7 +492,7 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2016-10-13 00:11:37"
+            "time": "2016-10-13T00:11:37+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -551,7 +551,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21 13:07:52"
+            "time": "2018-09-21T13:07:52+00:00"
         }
     ],
     "packages-dev": [],
