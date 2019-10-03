@@ -2382,11 +2382,12 @@ function yourls_debug_mode($bool) {
     $ydb->getProfiler()->setActive($bool);
 
     // report notices if true
-    if ($bool === true) {
-        error_reporting(-1);
-    } else {
-        error_reporting(E_ERROR | E_PARSE);
-    }
+    error_reporting( E_ERROR | E_PARSE );
+    // if ($bool === true) {
+    //     error_reporting(-1);
+    // } else {
+    //     error_reporting(E_ERROR | E_PARSE);
+    // }
 }
 
 /**
