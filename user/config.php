@@ -7,7 +7,7 @@
  */
 
 $connection_string = getenv('DATABASE_URL');
-$db_parts = parse_url($url);
+$db_parts = parse_url($connection_string);
 
 $db_host = $db_parts['host'];
 $db_user = $db_parts['user'];
