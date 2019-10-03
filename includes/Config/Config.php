@@ -206,12 +206,12 @@ class Config {
             define( 'YOURLS_DEBUG', false );
 
         // Error reporting
-        if (defined( 'YOURLS_DEBUG' ) && YOURLS_DEBUG == true ) {
+        // if (defined( 'YOURLS_DEBUG' ) && YOURLS_DEBUG == true ) {
             error_reporting( E_ERROR | E_PARSE );
             // error_reporting( -1 );
-        } else {
-            error_reporting( E_ERROR | E_PARSE );
-        }
+        // } else {
+            // error_reporting( E_ERROR | E_PARSE );
+        // }
     }
 
 }
