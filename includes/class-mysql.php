@@ -56,7 +56,7 @@ function yourls_db_connect() {
     $ydb->init();
 
     // Past this point, we're connected
-    yourls_debug_log(sprintf('Connected to database %s on %s ', $dbname, $dbhost));
+    // yourls_debug_log(sprintf('Connected to database %s on %s ', $dbname, $dbhost));
 
     yourls_debug_mode(YOURLS_DEBUG);
 

@@ -57,14 +57,14 @@ class Logger extends \Aura\Sql\Profiler {
         parent::addProfile($duration, $function, $statement, $bind_values);
 
         if($function == 'connect') {
-            $this->log( sprintf('SQL: CONNECT (%s s)', number_format($duration, 5)) );
+            // $this->log( sprintf('SQL: CONNECT (%s s)', number_format($duration, 5)) );
             return;
         }
 
         // If we are emulating prepare, don't log 'prepare' statement, as they are not actual queries sent to the server
         // See YDB::get_queries() for details
         if ($this->ydb->get_emulate_state() && $function !== 'prepare') {
-            $this->log( sprintf('SQL: %s (%s s)', $this->pretty_format($statement, $bind_values), number_format($duration, 5) ) );
+            // $this->log( sprintf('SQL: %s (%s s)', $this->pretty_format($statement, $bind_values), number_format($duration, 5) ) );
         }
     }
 
